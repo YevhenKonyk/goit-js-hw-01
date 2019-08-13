@@ -5,7 +5,7 @@ let input;
 
 do {
     input = prompt("Please enter the number");
-    let inputToNumber = +input;
+    let inputToNumber = Number(input);
 
     if (!isNaN(inputToNumber)) {
         total += inputToNumber;
